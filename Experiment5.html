@@ -1,0 +1,53 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 5</title>
+</head>
+<body>
+    <form method="post" action="data.html"> 
+        <h1><center>Student Registration Form</center></h1>
+        <fieldset>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="xyz@whatevermail" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required> Male
+        <input type="radio" id="female" name="gender" value="Female"> Female
+        <input type="radio" id="Other" name="gender" value="Other" required> Other
+        <br><br>
+
+        
+
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+            <option value="">--Select Course--</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="ME">ME</option>
+        </select><br><br>
+        <label for="number">Contact No: </label>
+        <input type="tel" id="number" name="number" placeholder="Enter phone number" required><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="35" placeholder="Your Address" required></textarea><br><br>
+
+        <input type="Submit" value="Register">
+        <button type="Reset">Clear</button> 
+        </fieldset>
+        <p><center>&copy; 2025 Student Registration Portal</center></p>
+        
+    </form>
+</body>
+<footer>Name-Atul Yadav<br>
+        Admission No.-2025B01010308
+    </footer>
+</html>
