@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>grid layout</title>
+    <title>Document</title>
     <style>
         html,*{
             margin: 0px;
@@ -13,39 +13,63 @@
         main{
             width: 1000px;
             height: auto;
-            background-color: aqua;
-            margin: o auto;
+            background-color: #e31414;
+            margin: 0 auto;
             display: grid;
-            grid-template-rows: repeat(4,1fr);
+            /* grid-template-columns: 300px 230px auto 290px; */
+            /* grid-template-columns: repeat(4,1fr); */
+            grid-template-rows: 100px 200px auto 260px;
             gap: 10px 20px;
         }
         .box{
-            
-            background-color: brown;
-            height: 100px;
+            /* height: 250px; */
+            background-color: rgb(41, 20, 2);
         }
-        .box:nth-child(4){
-            background-color: chartreuse;
+        /* @media screen and (max-width:768px) {
+            main{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 20px;   
+            }  
+        }
+         @media screen and (max-width:375px) {
+            main{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 10px;   
+            }  
+        }
+          @media screen and (max-width:768px) {
+            .box{
+                background-color: aquamarine;  
+            }  
+        } */
+         .box:nth-child(4){
+            background-color: aqua;
             display: grid;
-            grid-template-columns:repeat(2,1fr) ;
-            gap:10px;
-            text-align: center;
-        }
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+         }
+         .box4{
+            background-color: bisque;
+         }
 
-            
-        
-         
     </style>
 </head>
 <body>
     <main>
-        <div class="box"><h3>product 1</h3></div>
+        <div class="box">1</div>
         <div class="box">2</div>
-        <div class="box">3</div>
+        <div class="box">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore obcaecati eos nihil, est ea deleniti impedit quod autem corporis ab deserunt ut ipsum harum. Commodi sapiente dolore eum corrupti!
+            Quod atque distinctio at itaque molestiae tenetur corporis, minus voluptas reprehenderit recusandae, laboriosam ratione animi temporibus aut facilis totam praesentium earum dicta hic nemo quis? Fugit officia optio quaerat est.
+       cto laudanquae veniam reprehenderit quibusdam nisi illum iure excepturi enim mollitia cum corrupti illo dolorum non culpa repellendus temporibus? Culpa!</p>
+        </div>
         <div class="box">
             <div class="box4">left</div>
             <div class="box4">right</div>
         </div>
     </main>
+    
 </body>
 </html>
