@@ -1,0 +1,30 @@
+html,*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+header{
+  background-color: black;
+  color: aliceblue;
+  
+  
+  
+}
+a{
+    margin-right:150px ;
+    font-size: 24px;
+}
+#logo{
+    color:#ff0000 ;
+}
+
+.contentbox{
+    height: 400px;
+    width: 410px;
+    border: 2px solid black;
+    display: inline-block;
+}
