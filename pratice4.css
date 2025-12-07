@@ -28,3 +28,10 @@ a{
     border: 2px solid black;
     display: inline-block;
 }
+footer{
+    background-color: black;
+    color: azure;
+}
+#cotent{
+    height: 630px;
+}
