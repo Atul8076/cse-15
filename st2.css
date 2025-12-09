@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 50px;
+    
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    padding:15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+  
+}
+li{
+    list-style-type:none ;
+    
+}
+button{
+    background-color: rgb(255,255,0);
+}
+section{
+    padding: 50px;
+   font-size: 32px;
+   color:rgb(150,205,125) ;
+}
