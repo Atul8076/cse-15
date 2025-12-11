@@ -1,0 +1,80 @@
+html,*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    /* background-color: antiquewhite; */
+     border: 4px solid white;
+    
+}
+.logo{
+    height: 50px;
+    border-bottom: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: antiquewhite;
+}
+.header{
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+section{
+    /* height: 350px; */
+    background-color: antiquewhite
+}
+.textarea{
+   border-bottom: 4px solid white;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-left: 4px solid white;
+   border-right: 4px solid white;
+}
+
+.box{
+    display: flex;
+    border: px solid white;
+    
+}
+
+.box1{
+    height: 120px;
+    flex: 1;
+    border-left: 4px solid white;
+   border-right: 4px solid white;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    height: 120px;
+    flex: 1;
+    border-right: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    height: 120px;
+     flex: 1;
+     border-right: 4px solid white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: antiquewhite;
+    border: 4px solid white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
