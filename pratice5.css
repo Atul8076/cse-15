@@ -6,4 +6,11 @@ div{
     position: fixed; 
     right: 0px;
     top: 50px;
+    overflow: auto;
+    opacity: 8 ;
+}
+
+p{
+     overflow: hidden;
+    opacity: 8 ;
 }
